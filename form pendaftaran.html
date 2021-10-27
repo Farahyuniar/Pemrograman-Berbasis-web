@@ -1,0 +1,105 @@
+FORMULIR PENDAFTARAN SISWA BARU
+<DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+<head>
+<body>
+    <form action="Contact.php" method="POST">
+        <fieldset>
+        <legend>Contact</legend>
+        <p>
+            <strong>INFO PENDAFTARAN</strong>
+        </p>
+        <P>
+            <label>NISN:</label>
+            <input type="number" name="nisn" placeholder="your NISN..."/>
+        </P>
+        <p>
+            <label>Asal Sekolah:</label>
+            <input type="text" name="asal_sekolah" placeholder="....."/>
+        </p>
+        <p>
+            <label>Tahun Lulus:</label>
+            <input type="number" name="tahun_lulus" placeholder="(lampirkan foto copy ijazah)"/>
+        </p>
+        <p>
+            <strong>DATA CALON PESERTA</strong>
+        </p>
+        <P>
+            <label>Nama Lengkap:</label>
+            <input type="text" name="nama_lengkap" placeholder="your name.."/>
+        </p>
+        <p>
+            <label>NIK:</label>
+            <input type="text" name="NIK" placeholder="NIK..."/>
+        </p>
+        <p>
+            <label>Tanggal Lahir:</label>
+            <input type="date" name="tanggal" placeholder="lampirkan Foto Copy Akte Kelahiran Yang Telah Dilegalisir"/>
+        </p>
+        <p>
+            <label>Umur:</label>
+            <input type="number" min="10" max="90" name="umur"/>
+        </p>
+        <p>
+            <label>Jenis Kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-Laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <label>Alamat:</label>
+            <input type="text" name="alamat" placeholder="Desa/Kel,Kecamatan,Kabupaten,Provinsi"/>
+        </p>
+        <p>
+            <label>Email Aktif:</label>
+            <input type="email" name="email" placeholder="your Email..."/>
+        </p>
+        <p>
+            <strong>DATA ORANG TUA</strong>           <i>Lampiarkan KK</i> 
+        </p>
+        <p>
+            <label>Nomor Kartu Keluarga:</label>
+            <input type="number" name="nomor_kartu_keluarga"/>
+        </p>
+        <p>
+            <label>Nama Ayah Kandung:</label>
+            <input type="text" name="nama_ayah_kandung"/>
+        </p>
+        <p>
+            <label>Agama:</label>
+            <select name="agama">
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+            </select>
+        </p>
+        <p>
+            <label>Pekerjaan:</label>
+            <input type="text" name="pekerjaan"/>
+        </p>
+        <p>
+            <label>Nama Ibu Kandung:</label>
+            <input type="text" name="nama_ibu_kandung"/>
+        </p>
+        <p>
+            <label>Agama:</label>
+            <select name="agama">
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+            </select>
+        </p>
+        <p>
+            <label>Pekerjaan</label>
+            <input type="text" name="pekerjaan"/>
+        </p>
+        <p>
+            <label>Alamat Orang Tua</label>
+            <input type="text" name="Alamat_orang_tua" placeholder="Desa/Kel,Kecamatan,Kabupaten,Provinsi"/>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Send"/>
+        </p>
